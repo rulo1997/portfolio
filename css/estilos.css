@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    color: #e20000;
+    font-size: 36px;
+}
+
+p{
+    color: #6a6a6a;
+    font-size: 16px;
+}
+
+input{
+    border-radius: 15px !important;
+}
+
+.nav-link{
+    color: #282828;
+}
+
+.nav-item{
+    padding: 4px 24px;
+}
+
+nav .active{
+    border: #e20000 solid 1px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#contacto{
+    background-image: url("../images/fondo-contacto.png");
+    background-size: 100%;
+}
+
+#proyecto{
+    background-image: url("../images/fondo-proyectos.png");
+    background-size: 100%;
+}
+
+.gradiente{
+    background: rgb(180,58,58);
+    background: linear-gradient(90deg, rgba(180,58,58,1) 28%, rgba(253,29,29,1) 71%, rgba(252,176,69,1) 100%);
+    padding: 13px;
+}
+
+#proyecto h2{
+    font-size: 16px;
+    color: white;
+    display: block;
+    margin: auto;
+    
+}
+
+#proyecto img{
+    height: 210px;
+    padding: 0px;
+}
+
+.bloques p{
+    height: 90px;
+}
+
+.btn{
+    background-color: white;
+    color: #370a6d;
+    border-radius: 15px;
+}
+
+.btn:hover{
+    background-color: #370a6d;
+    color: white;
+}
+
+footer, footer a{
+    font-weight: 100px;
+}
+
+.online{
+    border-radius: 18px;
+    padding: 10px;
+    color: white !important;
+    background-color: #E20000;
+    text-decoration: none;
+}
+
+.online:hover{
+    background-color: #370a6d;
+}
+
+.fuente{
+    color: #E20000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.fuente:hover{
+    color: #E20000;
+}
+
+#whatsapp{
+    position: fixed;
+    color: white;
+    bottom: 0px;
+    right: 20px;
+    font-size: 40px;
+    padding: 20px 20px 40px 20px;
+    box-shadow: none;
+    background-color: #370a6d;
+    border-radius: 10px;
+}
+
+.fa-bars{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar-toggler{
+    color: #ff4a49;
+    border: 1px solid #ff4a49;
+    padding-left: 0px;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+    background-color: #370a6d;
+    color: white;
+    border: 1px solid white;
+}
+
+footer a, footer .sponsor, footer a:hover{
+    color: #E20000;
+}
+
+.img-fluid{
+    height: 470px;
+    display: block;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.img-fluid:hover{
+    cursor: pointer;
+    height: 480px;
+}
+
+.title{
+    font-size: 17px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 45%;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.pro-title a{
+    display: block;
+    margin: auto;
+    color: black;
+    text-align: center;
+    background-color: white;
+    width: 15%;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.pro-title a:hover{
+    color: white;
+    background-color: #370a6d;
+}
+
+.title p{
+    display: block;
+    margin: auto;
+    padding: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+
+@media(max-width: 750px){                           /*Media query para hacer modificaciones en mobile
+    */
+    #contacto{
+        background-image: url("../images/fondo-proyectos.png");
+    }
+    footer, footer a{
+        color: white;
+        font-weight: 100px;
+    }
+}
+

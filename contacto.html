@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/bootstrap-5.0.2-dist/css/bootstrap.min.css">               <!--La version min ocupa un par de byte menos-->
+    <link rel="stylesheet" href="css/fontawesome-free-5.15.3-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body id="contacto">
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span><i class="fas fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sobre-mi.html">Sobre mi</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="proyectos.html">Proyectos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                          <a class="nav-link" href="contacto.html">ES</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="en/contacto.html">EN</a>
+                        </li>
+                      </ul>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="container">
+        <div class="row">
+            <div class="col-12 py-5">
+                <h1>Contacto</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-6">
+                <p>Te invito a que te contactes enviándome un mensaje o bien por whatsapp</p>
+            </div>
+            <div class="col-12 col-sm-6">
+                <form action="" method="post">
+                    <div>
+                        <input type="text" name="txtNombre" id="txtNombre" class="form-control mb-3">
+                    </div>
+                    <div>
+                        <input type="email" name="txtCorreo" id="txtCorreo" class="form-control mb-3">
+                    </div>
+                    <div>
+                        <input type="tel" name="txtTelefono" id="txtTelefono" class="form-control mb-3">
+                    </div>
+                    <div>
+                        <textarea name="txtMensaje" id="txtMensaje" cols="30" rows="10" class="form-control mb-3"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" id="btnEnviar" name="btnEnviar" class="btn">ENVIAR</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </main>
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-3">
+                    A
+                </div>
+                <div class="col-12 col-sm-3">
+                    Sponsor <a href="htpp://Depcsuite.com.ar">DePC Suite</a>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <a href="mailto:matias@clipingenieria.com">matias@clipingenieria.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="whatsapp">
+        <a href="http://api.whatsapp.com/send?phone=541135627608" target="_blank"><i id="whatsapp" class="fab fa-whatsapp"></i></a>
+    </div>
+    <div>
+        <script src="css/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    </div>
+</body>
+</html>
