@@ -223,6 +223,11 @@ footer a, footer .sponsor, footer a:hover{
     color: white;
 }
 
+.exp{
+    width: 1450px;
+    height: 400px;
+}
+
 @media(max-width: 750px){                           /*Media query para hacer modificaciones en mobile
     */
     #contacto{
